@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<style>
+    ul.bg-black {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.836);
+    }
+
+    ul.bg-black>li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: rgb(131, 131, 131);
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        left: 0px;
+    }
+
+    nav {
+        padding-bottom: 60px;
+    }
+
+    .studiekeuze {
+        margin: 50px 100px auto 100px;
+        border: 2px solid rgba(0, 0, 175, 0.603);
+        background-color: rgb(255, 255, 255);
+        width: 450px;
+        background: rgb(194, 191, 191);
+        box-shadow: 2px 2px 10px rgb(0, 0, 0)
+    }
+
+    .swot {
+        margin: 50px 100px auto 100px;
+        border: 2px solid rgba(0, 0, 175, 0.603);
+        background-color: rgb(255, 255, 255);
+        width: 450px;
+        background: rgb(194, 191, 191);
+        box-shadow: 2px 2px 10px rgb(0, 0, 0)
+    }
+
+    .programmeer-ervaring {
+        margin: 50px 100px auto 100px;
+        border: 2px solid rgba(0, 0, 175, 0.603);
+        background-color: rgb(255, 255, 255);
+        width: 450px;
+        background: rgb(194, 191, 191);
+        box-shadow: 2px 2px 10px rgb(0, 0, 0)
+    }
+
+    html {
+        background-image: url(https://ak.picdn.net/shutterstock/videos/27100645/thumb/1.jpgs);
+        background-size: 100%;
+    }
+</style>
+
+<head>
+    <title>blog</title>
+    <link href="StyleSheet.css" rel="stylesheet">
+</head>
+<br>
+
+<body>
+    <main>
+        <h1>blog</h1>
+        <div class="studiekeuze">
+            <h1>studiekeuze</h1>
+            <p class="studiekeuze-tekst">
+                Ik ben erg gemotiveerd om deze opleiding te volgen omdat ik graag wil leren hoe ik moet zo goed mogelijk
+                kan prorameren. Het lijkt mij namelijk heel aaf om zelf programmas te maken die later in prodcuten of
+                systemen kunnen worden gebruikt om zo in het dagenlijks leven gemak te geven. Na deze opleiding wil ik
+                iets in de trant van software programmeur worden zodat ik met plezier mijn beroep kan beoefenen en meer
+                nog kan leren. Op dit moment heb ik nog niet zo veel ervaring met programeren maar ik hoop dit door
+                middel van deze opleidng te kunnen leren.
+            </p>
+        </div>
+
+        <div class="swot">
+            <h1>SWOT analyse</h1>
+            <p class="swot-text">
+                Ik ben erg sociaal en kan goed samenwerken met mensen. Ik ben soms erg kritisch wat voor een vertraging
+                zorgt. Groepsprojecten zullen waarschijnlijk erg goed uitpakken als iedereen gemotiveerd is want dan
+                sporen we elkaar aan. Misschien lijk ik wel wat moeilijk te benaderen maar ik ben heel vriendelijk.
+            </p>
+        </div>
+        <div class="programmeer-ervaring">
+            <h1>programmer ervaring</h1>
+            <p class="programmer-ervaring-tekst">Ik heb niet zo veel voorafgaande ervaring met programmeren maar ik
+                vindt het heel interessant en wil het graag leren.
+
+            </p>
+        </div>
+    </main>
+
+    <nav>
+        <ul class="sticky bg-black">
+            <li> <a href="/">home</a></li>
+            <li> <a href="/profile.html">profile</a> </li>
+            <li><a href="/dashboard.html">dashboard</a></li>
+            <li><a href="/Faq.html">FAQ</a></li>
+            <li><a href="/blog.html">blog</a></li>
+        </ul>
+    </nav>
+</body>
