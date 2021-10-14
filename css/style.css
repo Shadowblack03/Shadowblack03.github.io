@@ -3,8 +3,10 @@
 .h1 {
     font-size: 25px;    
 }
-/* text box */
-
+/* foto box */
+.card-img-top {
+    height: 200px;
+}
 /* navbar style */
 ul.bg-black {
     list-style-type: none;
